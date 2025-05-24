@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
     // CORS headers
-    res.setHeader('Access-Control-Allow-Origin', 'https://<your-frontend-domain>'); // e.g., Vercel or GitHub Pages URL
+    res.setHeader('Access-Control-Allow-Origin', 'https://dhl-khaki.vercel.app/'); // e.g., Vercel or GitHub Pages URL
     res.setHeader('Access-Control-Allow-Methods', 'POST');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
